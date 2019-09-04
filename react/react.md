@@ -47,3 +47,40 @@ https://www.jianshu.com/p/c5acae8549bd
 create-react-app my-app
 ```
 注意：记得先处理好路径
+
+### 6.运行程序
+```
+//进入到my-app文件夹
+cd my-app
+//运行
+npm start
+
+```
+### 7.安装谷歌调试插件
+在**VSCode** 扩展中 搜索 **Debugger for Chrome** 安装
+然后打开刚才新建的项目 按**F5**运行  此时会弹出选择运行环境  选择**Chrome**  会生成配置文件**launch.json**
+修改**launch.json**文件中的配置
+把
+```  
+"url": "http://localhost:3003"   
+```
+中的端口号改为 npm start 以后输出的端口号
+``` 
+Compiled successfully!
+
+You can now view my-app in the browser.
+
+Local:            http://localhost:3000/
+```
+保存即可，再次按**F5**可启动调试
+### 8.React Devtools 调试工具安装
+下载地址：
+https://github.com/facebook/react-devtools  
+
+下载，并解压文件夹
+
+### 9.打开命令行或是终端 
+进入解压好的文件夹，
+`` 
+
+``
