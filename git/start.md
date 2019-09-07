@@ -1,4 +1,5 @@
 # 上传项目到github仓库的简单步骤
+附上[一个好看的教程](https://www.bootcss.com/p/git-guide/)
 1. github 新建一个仓库
 
 2. 在本地的项目文件夹中，初始化
